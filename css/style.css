@@ -86,7 +86,7 @@ section {
   display: flex;
   align-items: center;
   padding: 0 9%;
-  background-image: url("../images/home.jpg");
+  background-image: url("../images/Home.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -110,7 +110,7 @@ section {
 
 .home-content .text-animate {
   position: relative;
-  width: 32.8rem;
+  width: 65rem;
 }
 
 .home-content .text-animate h3 {
@@ -121,7 +121,7 @@ section {
   background-image: linear-gradient(var(--main-color), var(--main-color));
   background-repeat: no-repeat;
   -webkit-background-clip: text;
-  background-position: -33rem 0;
+  background-position: -65rem 0;
 }
 
 .home.show-animate .home-content .text-animate h3 {
@@ -897,7 +897,7 @@ section:nth-child(odd) .animate.scroll,
   0%,
   10%,
   100% {
-    background-position: -33rem 0;
+    background-position: -65rem 0;
   }
   65%,
   85% {
